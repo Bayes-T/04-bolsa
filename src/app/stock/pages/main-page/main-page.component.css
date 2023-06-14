@@ -1,0 +1,21 @@
+.main__page {
+    background-color: #75AD89;
+}
+
+div .main__page__content{
+    background-color: #1C5631;
+    display: flex;
+    gap: 0px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.side_bar {
+    width: 30%;
+}
+
+.stock_info{
+    margin: 0 auto;
+}

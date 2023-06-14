@@ -1,0 +1,21 @@
+.mainorders {
+    display: flex;
+    gap: 20px;
+}
+
+.bg {
+    background-color: beige;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.orderlist {
+    width: 60%;
+}
+
+.ordersform {
+    width: 40%;
+}

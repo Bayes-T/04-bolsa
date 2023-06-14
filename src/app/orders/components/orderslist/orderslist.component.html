@@ -1,0 +1,8 @@
+
+<ul>
+    <li *ngFor="let order of orderList">{{order.symbol}} - {{order.price}} - {{order.hour}}
+
+        <button (click)="deleteById(order.id)">X</button>
+        <button (click)="onEditID(order.id)">Posponer</button>
+    </li>
+</ul>

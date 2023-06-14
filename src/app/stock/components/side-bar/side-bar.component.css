@@ -1,0 +1,13 @@
+.side__bar {
+    color: white;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+}

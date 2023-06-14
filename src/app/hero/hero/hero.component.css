@@ -1,0 +1,13 @@
+.hero {
+    background-image: url(../../../assets/bg-bolsa.jpeg);
+    height: 200px;
+    background-size: cover;
+}
+
+.hero__text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

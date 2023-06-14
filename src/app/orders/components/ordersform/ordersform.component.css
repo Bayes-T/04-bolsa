@@ -1,0 +1,16 @@
+.orders__form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 15px;
+}
+
+label {
+    text-align: center;
+}
+
+input:last-of-type {
+    margin-bottom: 20px;
+}

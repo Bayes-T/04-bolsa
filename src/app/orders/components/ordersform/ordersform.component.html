@@ -1,0 +1,28 @@
+
+
+<form class="orders__form">
+    <label>Acción</label>
+    <input 
+    [(ngModel)]="order.symbol"
+    name="simbolo"
+    type="text" 
+    placeholder="IBM">
+
+    <label>Precio</label>
+    <input 
+    [(ngModel)]="order.price"
+    name="precio"
+    type="number" 
+    placeholder="500">
+
+    <label>Hora</label>
+    <input 
+    [(ngModel)]="order.hour"
+    name="hora"
+    type="text" 
+    placeholder="5:00 PM">
+
+    <button
+    (click)="newOrder(order)"
+    >Agregar</button>
+</form>

@@ -1,0 +1,11 @@
+input {
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
